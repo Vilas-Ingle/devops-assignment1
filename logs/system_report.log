@@ -1,0 +1,70 @@
+==============================
+System Monitoring Report - Tue Mar 10 06:22:44 UTC 2026
+CPU and Process Usage:
+top - 06:22:44 up  1:22,  1 user,  load average: 0.03, 0.05, 0.02
+Tasks:  34 total,   1 running,  33 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.6 us,  3.6 sy,  0.0 ni, 90.9 id,  1.8 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3841.2 total,   2896.2 free,    514.2 used,    577.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3327.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3991 root      20   0    9284   5120   3072 R   8.3   0.1   0:00.02 top
+      1 root      20   0   21936  12768   9440 S   0.0   0.3   0:09.60 systemd
+      2 root      20   0    3120   2176   2048 S   0.0   0.1   0:00.78 init-sy+
+Directory Usage (/var):
+1.6M	/var/backups
+143M	/var/cache
+4.0K	/var/crash
+259M	/var/lib
+4.0K	/var/local
+0	/var/lock
+371M	/var/log
+4.0K	/var/mail
+4.0K	/var/opt
+0	/var/run
+4.0K	/var/snap
+16K	/var/spool
+36K	/var/tmp
+12K	/var/www
+Top CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          45  0.9  0.3  66868 15364 ?        S<s  05:00   0:45 /usr/lib/systemd/systemd-journald
+root        3987  0.6  0.1  14312  6996 pts/0    S+   06:22   0:00 sudo ./monitor.sh
+root         371  0.3  1.9 1972328 75112 ?       Ssl  05:00   0:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         239  0.2  1.2 1876112 48880 ?       Ssl  05:00   0:11 /usr/bin/containerd
+=================================
+==============================
+System Monitoring Report - Tue Mar 10 06:23:18 UTC 2026
+CPU and Process Usage:
+top - 06:23:19 up  1:23,  1 user,  load average: 0.01, 0.04, 0.02
+Tasks:  34 total,   1 running,  33 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.2 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3841.2 total,   2898.6 free,    509.7 used,    579.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3331.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4004 root      20   0    9284   5120   3072 R   8.3   0.1   0:00.02 top
+      1 root      20   0   21936  12768   9440 S   0.0   0.3   0:09.63 systemd
+      2 root      20   0    3120   2176   2048 S   0.0   0.1   0:00.78 init-sy+
+Directory Usage (/var):
+1.6M	/var/backups
+143M	/var/cache
+4.0K	/var/crash
+259M	/var/lib
+4.0K	/var/local
+0	/var/lock
+371M	/var/log
+4.0K	/var/mail
+4.0K	/var/opt
+0	/var/run
+4.0K	/var/snap
+16K	/var/spool
+36K	/var/tmp
+12K	/var/www
+Top CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        4000 10.0  0.1  14152  6656 pts/0    S+   06:23   0:00 sudo ./monitor.sh
+root          45  0.9  0.3  66868 15320 ?        S<s  04:59   0:45 /usr/lib/systemd/systemd-journald
+root         371  0.3  1.9 1972328 75112 ?       Ssl  04:59   0:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         239  0.2  1.2 1876112 48880 ?       Ssl  04:59   0:12 /usr/bin/containerd
+=================================
