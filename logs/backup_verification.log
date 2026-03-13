@@ -1,0 +1,60 @@
+Backup completed on 2026-03-12
+Verifying Apache Backup:
+drwxr-xr-x root/root         0 2026-03-12 09:26 var/www/html/
+-rw-r--r-- root/root       615 2026-01-03 03:09 var/www/html/index.nginx-debian.html
+-rw-r--r-- root/root     10671 2026-03-12 09:26 var/www/html/index.html
+Verifying Nginx Backup:
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/
+-rw-r--r-- root/root      3071 2023-11-30 22:32 etc/nginx/win-utf
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/snippets/
+-rw-r--r-- root/root       423 2023-11-30 22:32 etc/nginx/snippets/fastcgi-php.conf
+-rw-r--r-- root/root       217 2023-11-30 22:32 etc/nginx/snippets/snakeoil.conf
+-rw-r--r-- root/root       636 2023-11-30 22:32 etc/nginx/scgi_params
+-rw-r--r-- root/root      1055 2023-11-30 22:32 etc/nginx/fastcgi_params
+-rw-r--r-- root/root      1446 2023-11-30 22:32 etc/nginx/nginx.conf
+drwxr-xr-x root/root         0 2026-01-03 03:09 etc/nginx/sites-enabled/
+lrwxrwxrwx root/root         0 2026-01-03 03:09 etc/nginx/sites-enabled/default -> /etc/nginx/sites-available/default
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/modules-available/
+-rw-r--r-- root/root       180 2023-11-30 22:32 etc/nginx/proxy_params
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/sites-available/
+-rw-r--r-- root/root      2412 2023-11-30 22:32 etc/nginx/sites-available/default
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/conf.d/
+-rw-r--r-- root/root       664 2023-11-30 22:32 etc/nginx/uwsgi_params
+-rw-r--r-- root/root      5465 2023-11-30 22:32 etc/nginx/mime.types
+-rw-r--r-- root/root      2223 2023-11-30 22:32 etc/nginx/koi-win
+-rw-r--r-- root/root      1125 2023-11-30 22:32 etc/nginx/fastcgi.conf
+-rw-r--r-- root/root      2837 2023-11-30 22:32 etc/nginx/koi-utf
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/modules-enabled/
+drwxr-xr-x root/root         0 2026-02-14 06:03 usr/share/nginx/html/
+-rw-r--r-- root/root       615 2023-04-11 01:45 usr/share/nginx/html/index.html
+------------------------------------
+Backup completed on 2026-03-12
+Verifying Apache Backup:
+drwxr-xr-x root/root         0 2026-03-12 09:26 var/www/html/
+-rw-r--r-- root/root       615 2026-01-03 03:09 var/www/html/index.nginx-debian.html
+-rw-r--r-- root/root     10671 2026-03-12 09:26 var/www/html/index.html
+Verifying Nginx Backup:
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/
+-rw-r--r-- root/root      3071 2023-11-30 22:32 etc/nginx/win-utf
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/snippets/
+-rw-r--r-- root/root       423 2023-11-30 22:32 etc/nginx/snippets/fastcgi-php.conf
+-rw-r--r-- root/root       217 2023-11-30 22:32 etc/nginx/snippets/snakeoil.conf
+-rw-r--r-- root/root       636 2023-11-30 22:32 etc/nginx/scgi_params
+-rw-r--r-- root/root      1055 2023-11-30 22:32 etc/nginx/fastcgi_params
+-rw-r--r-- root/root      1446 2023-11-30 22:32 etc/nginx/nginx.conf
+drwxr-xr-x root/root         0 2026-01-03 03:09 etc/nginx/sites-enabled/
+lrwxrwxrwx root/root         0 2026-01-03 03:09 etc/nginx/sites-enabled/default -> /etc/nginx/sites-available/default
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/modules-available/
+-rw-r--r-- root/root       180 2023-11-30 22:32 etc/nginx/proxy_params
+drwxr-xr-x root/root         0 2026-02-14 06:03 etc/nginx/sites-available/
+-rw-r--r-- root/root      2412 2023-11-30 22:32 etc/nginx/sites-available/default
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/conf.d/
+-rw-r--r-- root/root       664 2023-11-30 22:32 etc/nginx/uwsgi_params
+-rw-r--r-- root/root      5465 2023-11-30 22:32 etc/nginx/mime.types
+-rw-r--r-- root/root      2223 2023-11-30 22:32 etc/nginx/koi-win
+-rw-r--r-- root/root      1125 2023-11-30 22:32 etc/nginx/fastcgi.conf
+-rw-r--r-- root/root      2837 2023-11-30 22:32 etc/nginx/koi-utf
+drwxr-xr-x root/root         0 2025-08-22 12:45 etc/nginx/modules-enabled/
+drwxr-xr-x root/root         0 2026-02-14 06:03 usr/share/nginx/html/
+-rw-r--r-- root/root       615 2023-04-11 01:45 usr/share/nginx/html/index.html
+------------------------------------
